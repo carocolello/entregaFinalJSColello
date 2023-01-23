@@ -12,7 +12,7 @@ const passwordCoder = 1234;
 
 botonLogIn?.addEventListener("click", () => {
     Swal.fire({
-        title: `Ingrese sus datos:`,
+        title: `Ingrese sus datos: (coder, 1234)`,
         html: 
         `<input type="text" id="usuarioIngresado" class="swal2-input" placeholder="Nombre de usuario">
         <input type="password" id="passwordIngresado" class="swal2-input" placeholder="Password">`, 
@@ -41,7 +41,7 @@ botonLogIn?.addEventListener("click", () => {
 
 setTimeout(() => {
     Swal.fire('Bienvenido! Usá el código: TIENDA20 para obtener un 20% de descuento en tu próxima compra.');
-}, 6000);
+}, 8000);
 
 
 // Productos dietética
